@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="http://code.jquery.com/ui/1.12.1/themes/base/jquery-ui.css">
+    <title>Time</title>
+</head>
+
+
+<body>
+    <article>
+        <h1>Date&Time</h1>
+        <label for="tnggl">Tanggal</label>
+        <input type="text" id="tnggl" name="tnggl" value="dd/mm/yy"><br>
+        <p>
+        Membuat Tanggal pada jam <time>10:00</time> dan selesai pada pukul
+        <time>10:30</time>.
+        </p>
+    </article> 
+
+
+
+<script src="https://code.jquery.com/jquery-1.12.4.js"></script>
+<script src="https://code.jquery.com/ui/1.12.1/jquery-ui.js"></script>
+
+
+<script>
+    $(function() {
+        $("#tnggl").datepicker();
+    })
+    </script>
+</body>
+</html>
